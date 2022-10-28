@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hi Sean</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="container card">
+
+
+    <div class="card my-2">
+      <h1 style="text-align:center">To-Do List</h1>
+
+      <!-- Name input -->
+      <input class="text" id="input1" placeholder="Enter Task">
+
+      <!-- person input-->
+      <h1 style="text-align:center">Assign Task To</h1>
+      <div class="form-group">
+
+        <select class="form-select" name="default" id="input2" onchange="selectUser()">
+          <option value="Choose a person" id="select">Choose a person</option>
+        </select>
+
+
+        <div class="" id="adduser">
+          <button type="button" id="btn" class="btn btn-primary" onclick="additem()"> - Add Task -
+          </button>
+          <p>Assign a new task to a person</p>
+
+          <div class="input-group" >
+            <input type="text" class="form-control" placeholder="Add Name" id="name" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-secondary" type="button" id="person-update" onclick="addPerson()">Add Name</button>
+          </div>
+        </div>
+
+        <!-- <div class="col-4 offset-5 my-2">
+          
+          <p id="pText"></p>
+    
+    
+        </div> -->
+        <!-- <span id="result">here</span> -->
+
+
+        <table>
+          <tr>
+            <th>Task</th>
+            <th>Person</th>
+            <th>Date Assign</th>
+            <th>Id</th>
+            <th>Option</th>            
+            <tbody id="taskList">
+
+            </tbody>
+          </tr>
+        </table>
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

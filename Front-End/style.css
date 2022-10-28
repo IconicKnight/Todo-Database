@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(55, 130, 143)
+}
+
+.container {
+    background-color: rgb(85, 85, 85);
+
+}
+#adduser {
+    justify-content: center;
+    margin: 15px;
+    
+    
+}
+
+#input1 {
+    margin: 0.5rem;
+}
+#select {
+    margin: 5px;
+    justify-content: flex;
+    align-items: center;
+}
+
+
+.button {
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.list-group-item {
+    justify-content: space-between;
+    display: flex;
+    margin: 0.2rem;
+    align-items: center;
+}
+
+table, th, td {
+    border: 2px solid black;
+    justify-content: flex-start;
+    text-align: center;
+    margin:auto
+    
+  }

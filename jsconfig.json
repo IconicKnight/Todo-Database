@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/Back-End/*":["./Back-End/*"],
+        }
+    }
+}
