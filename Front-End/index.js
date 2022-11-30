@@ -5,7 +5,7 @@ const personList = document.getElementById("persons");
 let userTasks = [];
 let tasks = [];
 let selectedUser = 'Choose a person'
-const baseUrl = "http://localhost:3000"
+const baseUrl = "http://localhost:5000"
 
 let taskItem = document.getElementById("input1").value;
 let taskUser = document.getElementById("input2").value;
